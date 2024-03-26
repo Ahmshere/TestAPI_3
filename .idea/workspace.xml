@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0dac5c-2a5e-464f-ac60-88b36919dcb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/IDExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/TestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/AuthenticationRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/AuthenticationResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ContactListModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ContactModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ContactResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ErrorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/NewUserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/AddNewContactTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/GetAllContacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationUsingINterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appdata.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/AddressGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/EmailGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/NameAndLastNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PasswordStringGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PhoneNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestMainRegEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/AddNewContactTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/UpdateContactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/IDExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/IDExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/ContactModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ContactModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/AddNewContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/AddNewContactTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/appdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/appdata.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,45 +70,44 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.AddNewContactTest.addNewContactPositive.executor": "Run",
     "Gradle.AddNewContactTests.addNewContactPositive.executor": "Run",
+    "Gradle.AddNewContactTests.deleteContactByID.executor": "Run",
     "Gradle.Build TestAPI_2.executor": "Run",
     "Gradle.DeleteContacts.createContactPrecondition.executor": "Run",
     "Gradle.DeleteContacts.deleteContactByID.executor": "Run",
     "Gradle.DeleteContacts.executor": "Run",
     "Gradle.GetAllContacts.getAllContactsPositive.executor": "Run",
+    "Gradle.GetAllContactsTest.getAllContactsPositive.executor": "Run",
     "Gradle.LoginTests.executor": "Run",
     "Gradle.LoginTests.loginPositive.executor": "Run",
+    "Gradle.LoginTests.loginTest.executor": "Run",
+    "Gradle.LoginTests.loginTestNegative.executor": "Run",
+    "Gradle.RegistrationTest.registrationNegative.executor": "Run",
     "Gradle.RegistrationTest.registrationPositive.executor": "Run",
     "Gradle.RegistrationUsingINterfaceTest.registrationUsingInterface.executor": "Run",
     "Gradle.RegistrationUsingINterfaceTest.registrationUsingInterfaceNegative.executor": "Run",
     "Gradle.TestAPI_2 [:IDExtractor.main()].executor": "Run",
     "Gradle.TestAPI_2 [:PropertiesWriter.main()].executor": "Run",
+    "Gradle.TestAPI_2 [:TestMain.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/PROJECTS/QA_41/TestAPI_2/src/main/java/helpers",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROJECTS\QA_41\TestAPI_2\src\main\java\helpers" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteContacts.createContactPrecondition">
-    <configuration name="IDExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helpers.IDExtractor" />
-      <module name="TestAPI_2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddNewContactTests.addNewContactPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UpdateContactTest.updateContactTest">
+    <configuration name="AddNewContactTest.addNewContactPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +120,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.AddNewContactTests.addNewContactPositive&quot;" />
+            <option value="&quot;restassured.AddNewContactTest.addNewContactPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,7 +131,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContacts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTests.loginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -150,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteContacts&quot;" />
+            <option value="&quot;restassured.LoginTests.loginTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,7 +155,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContacts.createContactPrecondition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTest.registrationNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -174,7 +168,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteContacts.createContactPrecondition&quot;" />
+            <option value="&quot;restassured.RegistrationTest.registrationNegative&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,7 +179,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContacts.deleteContactByID" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTest.registrationPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -198,7 +192,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteContacts.deleteContactByID&quot;" />
+            <option value="&quot;restassured.RegistrationTest.registrationPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateContactTest.updateContactTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;restassured.UpdateContactTest.updateContactTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -211,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeleteContacts.createContactPrecondition" />
-        <item itemvalue="Gradle.AddNewContactTests.addNewContactPositive" />
-        <item itemvalue="Gradle.DeleteContacts.deleteContactByID" />
-        <item itemvalue="Gradle.DeleteContacts" />
-        <item itemvalue="Application.IDExtractor" />
+        <item itemvalue="Gradle.UpdateContactTest.updateContactTest" />
+        <item itemvalue="Gradle.AddNewContactTest.addNewContactPositive" />
+        <item itemvalue="Gradle.RegistrationTest.registrationNegative" />
+        <item itemvalue="Gradle.LoginTests.loginTest" />
+        <item itemvalue="Gradle.RegistrationTest.registrationPositive" />
       </list>
     </recent_temporary>
   </component>

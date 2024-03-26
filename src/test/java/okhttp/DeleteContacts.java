@@ -1,7 +1,6 @@
 package okhttp;
 
-import helpers.PropertiesReader;
-import helpers.TestHelper;
+import helpers.*;
 import models.ContactModel;
 import models.ContactResponseModel;
 import okhttp3.Request;
@@ -17,10 +16,16 @@ import static helpers.IDExtractor.extractId;
 
 public class DeleteContacts implements TestHelper {
     String id;
-    @Test
+
     public void createContactPrecondition() throws IOException {
         ContactModel contactModel =
-                new ContactModel("TestUse1r","HisLastName","jckh@megamail.com","44231763567","LA 345 Sunset beach","hough");
+                new ContactModel(
+                        NameAndLastNameGenerator.generateName(),
+                        NameAndLastNameGenerator.generateLastName(),
+                        EmailGenerator.generateEmail(5,5,3),
+                        PhoneNumberGenerator.generatePhoneNumber(),
+                        AddressGenerator.generateAddress(),
+                        "My description");
 
         RequestBody requestBody = RequestBody.create(gson.toJson(contactModel), JSON);
         Request request = new Request.Builder()
@@ -36,17 +41,21 @@ public class DeleteContacts implements TestHelper {
         // kak dostat ID ?  msg.substring(msg.lastIndexOf(" ")+1); No est' drugoi variant
         id = extractId(msg);
         System.out.println(id);
-        Assert.assertTrue(response.isSuccessful());
+
     }
 
-    @Test(dependsOnMethods = "getId")
+    @Test
     public void deleteContactByID() throws IOException {
+        createContactPrecondition();
         Request request = new Request.Builder()
-                .url("https://contactapp-telran-backend.herokuapp.com/v1/contacts"+"/"+id)
+                .url(PropertiesReader.getProperty("getAllContacts")+"/"+id)
                 .addHeader(AuthorizationHeader, PropertiesReader.getProperty("token"))
                 .delete()
                 .build();
 
         Response response = client.newCall(request).execute();
+        ContactResponseModel contactResponseModel = gson.fromJson(response.body().string(),ContactResponseModel.class);
+        System.out.println(contactResponseModel.getMessage());
+        Assert.assertTrue(response.isSuccessful());
     }
 }
