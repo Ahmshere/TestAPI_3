@@ -29,6 +29,22 @@ public class AddNewContactTest implements TestHelper {
                     .then()
                     .assertThat()
                     .statusCode(200);
-
     }
+    /*
+    * given(): Это часть спецификации тестирования с использованием библиотеки RestAssured.
+    * Этот метод начинает цепочку спецификации запроса.
+
+.header(AuthorizationHeader, PropertiesReader.getProperty("token")):
+* Эта часть устанавливает заголовок запроса с именем "AuthorizationHeader" и значением,
+* полученным из файла свойств (скорее всего, это какой-то токен для аутентификации).
+
+.body(contactModel): Здесь устанавливается тело (body) запроса,
+* используя объект contactModel, который мы создали ранее.
+
+.contentType(ContentType.JSON): Устанавливает тип содержимого запроса как JSON.
+
+.when().post(): Это часть, которая отправляет POST-запрос.
+
+.then().assertThat().statusCode(200): После отправки запроса, ожидается,
+* что будет получен ответ с кодом состояния (статус кодом) 200 (ОК).*/
 }

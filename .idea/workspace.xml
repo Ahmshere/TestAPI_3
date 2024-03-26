@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0dac5c-2a5e-464f-ac60-88b36919dcb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/AddressGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/EmailGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/NameAndLastNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PasswordStringGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PhoneNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMainRegEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/AddNewContactTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/UpdateContactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/IDExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/IDExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/ContactModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ContactModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/AddNewContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/AddNewContactTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/appdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/appdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/AddNewContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/AddNewContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +76,7 @@
     "Gradle.TestAPI_2 [:IDExtractor.main()].executor": "Run",
     "Gradle.TestAPI_2 [:PropertiesWriter.main()].executor": "Run",
     "Gradle.TestAPI_2 [:TestMain.main()].executor": "Run",
+    "Gradle.UpdateContactTest.updateContactTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
